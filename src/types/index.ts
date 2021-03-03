@@ -17,4 +17,13 @@ export enum CellState {
     flagged
 }
 
+export enum Face {
+    smile = '😊',
+    oh = '😲',
+    lost = '😵',
+    win = '😎'
+}
+
+
 export type Cell = {value: CellValue, state: CellState};
+

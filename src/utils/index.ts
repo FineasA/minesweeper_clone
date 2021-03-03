@@ -88,7 +88,6 @@ export const generateCells = (): Cell[][] => {
                 }
             }
 
-            console.log(numberOfBombs)
         }
     }
 
